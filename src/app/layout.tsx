@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-// import { Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 
-// const inter = Inter({ subsets: ["latin"] });
 
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+});
 export const metadata = {
   title: "Ultrahuman Ring AIR",
   description: "Comfortable Sleep Tracker",
@@ -16,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className=" scroll-smooth">{children}</body>
+      <body className= {inter.className} >{children}</body>
     </html>
   );
 }
