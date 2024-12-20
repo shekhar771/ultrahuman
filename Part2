@@ -1,0 +1,22 @@
+Part 2:
+
+General Instructions –
+
+●	In this part, you are expected to study the data better and derive insights that may be useful for Cueball Capital’s board
+
+●	Use the same csv data sets from Part 1
+
+●	You are expected to submit a well-structured Jupyter notebook for this Part • Use
+
+Python and any other required EDA libraries
+
+Challenge –
+
+●	Calculate the remaining budget for each sector after deducting investments. Use the provided budget data and investment data.
+
+●	Filter and display the investment opportunities based on the available budget in each sector. Show the investments that are within the remaining budget for each sector.
+
+●	Determine how the investment amount varies for each sector over time. Visualize the investment amount for each sector over time to identify any trends or patterns. • Analyze the trend of investments for each sector on a monthly and quarterly basis. Create appropriate visualizations to showcase the trend of investments for each sector.
+
+Good luck to you!
+
